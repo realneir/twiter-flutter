@@ -1,4 +1,4 @@
-// ignore_for_file: sized_box_for_whitespace, prefer_const_constructors, avoid_unnecessary_containers, unused_element, prefer_final_fields
+// ignore_for_file: sized_box_for_whitespace, prefer_const_constructors, avoid_unnecessary_containers, unused_element, prefer_final_fields, library_private_types_in_public_api, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
