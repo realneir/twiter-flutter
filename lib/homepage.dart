@@ -1,4 +1,4 @@
-// ignore_for_file: sized_box_for_whitespace, prefer_const_constructors, avoid_unnecessary_containers, unused_element, prefer_final_fields, library_private_types_in_public_api, use_key_in_widget_constructors
+// ignore_for_file: sized_box_for_whitespace, prefer_const_constructors, avoid_unnecessary_containers, unused_element, prefer_final_fields, library_private_types_in_public_api, use_key_in_widget_constructors, must_be_immutable
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -26,7 +26,6 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.symmetric(horizontal: 10.0),
               child: Row(
                 children: <Widget>[
-                  //Profile icon
                   Container(
                     height: 40.0,
                     width: 40.0,
@@ -74,7 +73,6 @@ class _HomeState extends State<Home> {
   }
 }
 
-// ignore: must_be_immutable
 class _TweetView extends StatefulWidget {
   BuildContext _context;
   int _index;
